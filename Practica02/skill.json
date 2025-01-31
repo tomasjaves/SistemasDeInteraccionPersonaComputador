@@ -1,0 +1,54 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:313903731121:function:8ad01664-609c-4871-9615-8a8f2d8752bb:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:313903731121:function:8ad01664-609c-4871-9615-8a8f2d8752bb:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:313903731121:function:8ad01664-609c-4871-9615-8a8f2d8752bb:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:313903731121:function:8ad01664-609c-4871-9615-8a8f2d8752bb:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "es-ES"
+          }
+        ]
+      },
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "es-ES": {
+          "name": "Juego de preguntas"
+        },
+        "es-US": {
+          "name": "Juego de preguntas"
+        },
+        "es-MX": {
+          "name": "Juego de preguntas"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

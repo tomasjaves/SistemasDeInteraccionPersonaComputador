@@ -1,0 +1,92 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "pokemonName",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "AdivinaPokemonIntent",
+          "samples": [
+            "Es {pokemonName}",
+            "creo que es {pokemonName}",
+            "podría ser {pokemonName}",
+            "tal vez es {pokemonName}",
+            "es posible que sea {pokemonName}",
+            "mi respuesta es {pokemonName}",
+            "adivino que es {pokemonName}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "pista_intent",
+          "samples": [
+            "Dame pista",
+            "Quiero una pista",
+            "Dame una pista",
+            "Dame otra pista",
+            "Pista",
+            "Dime una pista"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FinJuegoIntent",
+          "samples": [
+            "finalizar juego",
+            "quiero salir",
+            "terminar juego"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ReiniciarJuegoIntent",
+          "samples": [
+            "Sí",
+            "quiero jugar otra vez",
+            "reiniciar juego",
+            "reinicia el juego",
+            "empezar de nuevo"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "juguemos pokémon"
+    }
+  }
+}
